@@ -3,19 +3,78 @@
     
 <style>
     h1{color: purple;}
-   
+   table, th, td{ border: 1px solid greenyellow;
+    border-collapse: collapse;}
+    th, td {
+  background-color: #96D4D4;
+}
 </style>
 <title>learning html</title>
-<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<link rel="icon" type="image/x-icon" href="favicon.ico.png">
 </head>
 
 
-<body style="background-color:greenyellow;">
+<body style="background-color: aquamarine;">
+   
 
     <h1>my first html page</h1>
     <p>by: Keira</p>
     <a href="https://en.wikipedia.org/wiki/Sardine">wiki link</a>
     <img src="child's play.png" alt="summer art" width="270" height="330">
     <i style="color:Green  ;"> I am so excited to learn website development this semester</i>
+
+    <table>
+       
+<tr>
+    <th>Name</th>
+    <th>Genre</th>
+    <th># of Episodes</th>
+    
+</tr>
+<tr>
+    <td>Hell's Paradise</td>
+    <td>Thriller</td>
+    <td>13</td>
+</tr>
+<tr>
+    <td>Scooby Doo</td>
+    <td>Mystery</td>
+    <td>idk</td>
+</tr>
+<tr>
+    <td>Vox Machina</td>
+    <td>Adventure</td>
+    <td>24</td>
+</tr>
+
+
+    </table>
+
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+        <li>eggs</li>
+      </ol>
+    
+<form>
+    <label for="cname">Class Name</label><br>
+    <input type="text" id="cname" name="cname"><br>
+    <label for="tname">Teacher Name</label><br>
+    <input type="text" id="tname" name="tname"><br>
+</form>
+<label for="Subject">Choose a Subject:</label>
+<select id="cars" name="cars">
+  <option value="Math">Math</option>
+  <option value="English">English</option>
+  <option value="Science">Science</option>
+  <option value="Art">Art</option>
+  <option value="Language">Language</option>
+</select>
+<button type="button" onclick="alert()">date/Time</button>
+<audio controls autoplay>
+    <source src="Twisted_Fantasies_-_KostiaDeep.mp3" type="audio/mpeg">
+</audio>
+
     <!-- The green is pretty and I like italics -->
 </body>
